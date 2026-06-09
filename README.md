@@ -16,3 +16,13 @@ modulation depth at 300.4 GHz, saturating near σ ≈ 15 S/m (critical-coupling 
 
 ## Stack
 Python · pandas · matplotlib · Ansys HFSS
+
+## How to run
+1. Open `metasurface_md_analysis.ipynb` in Google Colab or Jupyter
+2. Upload your HFSS reflection export (CSV: σ, frequency, reflection magnitude)
+3. Run all cells — figures save automatically as PNG + PDF
+
+## Context
+Reconfigurable THz metasurfaces are candidate building blocks for 6G wireless,
+imaging, and sensing. This tool quantifies how device modulation scales with
+photo-induced conductivity.
